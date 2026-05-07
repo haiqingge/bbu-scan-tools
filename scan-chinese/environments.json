@@ -1,0 +1,35 @@
+{
+  "_comment": "BBU 环境配置 - 根据实际环境修改",
+  "default_env": "T5000",
+
+  "environments": {
+    "T5000": {
+      "host": "192.168.5.104",
+      "port": 22,
+      "user": "root",
+      "password": "5Groo@23",
+      "note": "T5000 环境"
+    },
+    "test_v5": {
+      "host": "192.168.5.100",
+      "port": 22,
+      "user": "root",
+      "password": "Smallcell@5",
+      "note": "V5 测试环境"
+    },
+    "test_v6": {
+      "host": "192.168.5.100",
+      "port": 22,
+      "user": "f3mto5gus3r",
+      "password": "H@rm@n$Nr!Fmt0$00.5G_$StrnG",
+      "note": "V6 测试环境"
+    },
+    "site_a": {
+      "host": "10.88.2.200",
+      "port": 22,
+      "user": "root",
+      "password": "",
+      "note": "外场站点A"
+    }
+  }
+}
